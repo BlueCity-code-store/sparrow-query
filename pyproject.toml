@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sparrow_query"
+version = "0.0.0"
+description = ""
+authors = ["Hugo Solleder <hugo.solleder@epfl.ch>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.2"
+
+[tool.poetry.group.dev.dependencies]
+requests = "^2.32.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
