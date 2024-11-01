@@ -13,12 +13,12 @@ headers = {'Accept': 'application/json'}
 
 # so2 is not available in the data
 filters = ['pm1', 'pm25', 'pm10', 'co2', 'no2', 'o3', 'temperature', 'humidity', 'pressure', 'iri', 'bumps']
-start_date = '2023-01-08T12:00:00'
-end_date = '2023-01-10T15:00:00'
-start_lat = 46.20391241
-start_lon = 6.145815253
-end_lat = 46.20585782
-end_lon = 6.154720187
+start_date = '2024-04-01T00:00:00'
+end_date = '2024-04-30T23:59:59'
+start_lat = 46.4
+start_lon = 6.5
+end_lat = 46.6
+end_lon = 6.8
 
 dfs = []
 
